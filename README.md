@@ -1,48 +1,62 @@
-# MY470 Computer Programming
+# ST445 Managing and Visualizing Data
 
 
 ### Michaelmas Term 2017
 
 ### Instructors
 
-* [Milena Tsvetkova](m.tsvetkova@lse.ac.uk), *Office hours*: Mondays 15:00–17:00, COL 8.03
-* [Kenneth Benoit](k.r.benoit@lse.ac.uk), *Office hours*: By appointment, COL 8.11
-* [Kohei Watanabe](K.Watanabe1@lse.ac.uk) (GTA), *Office hours*: TIME, BLDG
+* [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
+* [Milan Vojnovic](M.Vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: TIME, BLDG
 
 ### Course Information
 
-* Lectures on Mondays 13:00–15:00 in KSW G.01
-* Classes on:
-  * Tuesdays 15:00–16:30 in TW2 4.03
-  * Thursdays 14:30–16:00 in STC S018
-  * Fridays 15:00–16:30 in STC S018
+* Lectures on Tuesdays 10:00–12:00 in CLM.2.02
+* Classes on Thursdays 13:00–14:30 in TW2.4.02
 
 No lectures or classes will take place during School Reading Week 6.
 
 
 ### Course Description
 
-This course introduces students to the fundamentals of computer programming as students design, write, and debug computer programs using the programing languages Python and R. The course will also cover the foundations of computer languages, algorithms, functions, variables, object orientation, scoping, and assignment.
+This course will cover the principles of digital methods for storing and structuring data, including data types, relational and non-relational database design, and query languages. Students will learn to build, populate, manipulate and query databases based on datasets relevant to their fields of interest. The course will also cover workflow management for typical data transformation and cleaning projects, frequently the starting point and most time-consuming part of any data science project. This course uses a project- based learning approach towards the study of online publishing and group -based collaboration, essential ingredients of modern data science projects. The coverage of data sharing will include key skills in on-line publishing, including the elements of web design, the technical elements of web technologies and web programming, as well as the use of revision- control and group collaboration tools such as GitHub. Each student will build one or more interactive website based on content relevant to his/her domain -related interests, and will use GitHub for accessing and submitting course materials and assignments.
+
+In this course, we introduce principles and applications of the electronic storage, structuring, manipulation, transformation, extraction, and dissemination of data. This includes data types, database design, data base implementation, and data analysis through structured queries. Through joining operations, we will also cover the challenges of data linkage and how to combine datasets from different sources. We begin by discussing concepts in fundamental data types, and how data is stored and recorded electronically. We will cover database design, especially relational databases, using substantive examples across a variety of fields. Students are introduced to SQL through MySQL, and programming assignments in this unit of the course will be designed to insure that students learn to create, populate and query an SQL database. We will introduce NoSQL using MongoDB and the JSON data format for comparison. For both types of database, students will be encouraged to work with data relevant to their own interests as they learn to create, populate and query data. In the final section of the data section of the course, we will step through a complete workflow including data cleaning and transformation, illustrating many of the practical challenges faced at the outset of any data analysis or data science project.
+
 
 ### Organization
 
-This course is an introduction to the fundamental concepts of programming for students who lack a formal background in the field, but will include more advanced problem-solving skills in the later stages of the course. Topics include algorithm design and program development; data types; control structures; functions and parameter passing; recursion; data structures; searching and sorting; and an introduction to the principles of object-oriented programming.
+This course is an introduction to the fundamental concepts of data and data visualization for students and assumes no prior knowledge of these concepts.  
+
+The course will involve 20 hours of lectures and 15 hours of computer workshops in the MT. 	
+
 
 ### Prerequisites
 
-This is an introductory class and no prior experience with programming is required.
+No prior experience with programming is required.
+
 
 ### Software
 
-The course will use Python and R. We will use the Anaconda distribution to install the languages and manage packages and The Jupyter Notebook to write code. Lectures and assignments will be posted on Github, Students are expected to use Github also to submit problem sets and final exam.
+TWe will use some tools, notably SQLLite, R, and Python, but these will be used in coordination with MY470 (Computer Programming) where their use will be covered more formally.  Lectures and assignments will be posted on Github, Students are expected to use Github also to submit problem sets and final exam.
 
 ### Materials
 
 The main course texts will be:
-*	Guttag, John V. *Introduction to Computation and Programming Using Python: With Application to Understanding Data*. MIT Press, 2016.
-*	Intermediate and advanced documentation at http://docs.python.org/3/.
-*	Grolemund, Garrett and Hadley Wickham. *R for Data Science*. O’Reilly, 2016. http://r4ds.had.co.nz
-*	Grolemund, Garrett. *Hands-On Programming with R*. O’Reilly, 2014.
+
+The main course texts will be:
+*	Chodorow, Kristina MongoDB: The Definitive Guide, 2nd Edition O’Reilly 2013. Churcher, Clare. Beginning Database Design: From Novice to Professional. Apress, 2007.
+*	Tahaghoghi, Seyed M. and Hugh E. Williams. Learning MySQL. O'Reilly, 2006. Karumanchi, Narasimha. Data Structures and Algorithms Made Easy: Data Structure and Algorithmic Puzzles, Second Edition. CreateSpace Independent Publishing Platform, 2011.
+*	Lee, Kent. Data Structures and Algorithms with Python. Springer, 2015.
+*	Lake, Peter. Concise Guide to Databases: A Practical Introduction. Springer, 2013.
+*	Nield, Thomas. Getting Started with SQL: A hands-on approach for beginners. O’Reilly, 2016.
+*	Byron, Angela and Addison Berry, Nathan Haug, Jeff Eaton, James Walker, Jeff Robbins Using Drupal: Choosing and Configuring Modules to Build Dynamic Websites. O'Reilly Media, 2008.
+*	Duckett, Jon HTML and CSS: Design and Build Websites New York: Wiley, 2011.
+*	Duckett, Jon JavaScript and JQuery: Interactive Front-End Web Development New York: Wiley, 2014.
+*	Rice, Dylan. Twitter Bootstrap In Your Pocket. CreateSpace Independent Publishing Platform, 2016.
+*	Sklar, David Learning PHP 5 O’Reilly, 2004. GitHub Guides at https://guides.github.com, including: “Understanding the GitHub Flow”, “Hello World”, and “Getting Started with GitHub Pages”.
+*	Jacobson, Daniel APIs: A Strategy Guide O’Reilly: 2012.
+*	London, Kyle Developing Large Web Applications: Producing Code That Can Grow and Thrive O’Reilly, 2010.
+
 
 ### Assessment
 
