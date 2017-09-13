@@ -54,13 +54,7 @@ The main course texts will be:
 
 *   Karumanchi, Narasimha.  _Data Structures and Algorithms Made Easy: Data Structure and Algorithmic Puzzles_, Second Edition.  5th ed.  CreateSpace Independent Publishing Platform, 2017.
 *	Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
-*	Lake, Peter.  _Concise Guide to Databases: A Practical Introduction_. Springer, 2013.
-*	Nield, Thomas. _Getting Started with SQL: A hands-on approach for beginners_. O’Reilly, 2016.
-*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
-*	GitHub Guides at https://guides.github.com, including: “Understanding the GitHub Flow”, “Hello World”, and “Getting Started with GitHub Pages”.
-*   Cooksey, Brian.  _An Introduction to APIs_.  Zapier, 2014.
-*   Severance, Charles Russell.  _Introduction to Networking: How the Internet Works_.  Charles Severance, 2015.
-*   Bassett, L. 2015.  _Introduction to JavaScript Object Notation: A to-the-point Guide to JSON_.  O'Reilly Media, Inc.
+*	GitHub Guides at https://guides.github.com, including: "Understanding the GitHub Flow", "Hello World", and "Getting Started with GitHub Pages".
 
 ### Assessment
 
@@ -76,11 +70,17 @@ In the first week, we will introduce the basic concepts of the course, including
 This week will also introduce basic data types, in a language agnostic manner, from the perspective of machine implementations through to high-level programming languages.  We will introduce the notion of databases and database managers, and the client-server model.
 
 *Readings*:
+* something from Karamanchi or the Lee text.
+* Chacon, Scott and Ben Straub. [_Pro Git_](https://git-scm.com/book/en/v2). 2nd ed. Apress.  Chapters 1-2.
+* [GitHub Guides](https://guides.github.com), especially: "Understanding the GitHub Flow", "Hello World", and "Getting Started with GitHub Pages".
+* Jim McGlone, "[Creating and Hosting a Personal Site on GitHub
+A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.](http://jmcglone.com/guides/github-pages/)".
 
-* readings here
+*Further Readings*:
+* Nelson, Meghan.  2015.  "[An Intro to Git and GitHub for Beginners (Tutorial).](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)"
 
-*Lab*: Setting up a free personal website using GitHub pages, by forking a repository, staging and committing changes, and pushing these to a repository for publishing a website using Jekyll.
 
+*Lab*: **Setting up a website using GitHub pages**, by forking a repository, staging and committing changes, and pushing these to a repository for publishing a website using Jekyll.
 * Installing git and setting up an account on GitHub
 * Using Jupyter notebooks on GitHub
 * How to complete and submit assignments using GitHub Classroom
@@ -92,34 +92,53 @@ This week will also introduce basic data types, in a language agnostic manner, f
 This week covers markup languages, content style sheets, and web protocols for publishing and transmitting data.  Continuing from the material covered in the first week lab session, we will cover markup languages, including HTML, XML, and Markdown, as well as common data formats such as JSON (Javascript Object Notation).  We will learn about class abstraction using CSS (content style sheets) and adding functionality to web pages through the use of simple Javascript.  We will also cover the client-server model, and how machines and humans transmit data over networks and to and from databases.
 
 *Readings*:
-*
+*   Severance, Charles Russell.  [_Introduction to Networking: How the Internet Works_](http://www.net-intro.com).  Charles Severance, 2015.
+*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
 
-*Lab*: **More on on-line publishing**
-* Adding functionality to our website, and creating an interface to web data.
+*Further Resources*:
+* GitHub.  "[Markdown Syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)" (a cheatsheet).  
+* Shay Howe. 2015.  [_Learn to Code HTML and CSS: Develop and Style Websites_](http://learn.shayhowe.com/html-css/).  New Riders.  
+
+
+*Lab*: **Advanced on-line publishing**
 * Mastering Markdown.
+* Adding functionality to our website, and creating an interface to web data.
 
-
-
+---
 #### Week 3. Complex Data Types and Structured Data
 
 This week moves beyond the rectangular format common in statistical datasets, modeled on a spreadsheet, to cover relational structures and database normalization.  We will also cover ways to restructure data from "wide" to "long" format, within strictly rectangular data structures.  We will also cover more complex data types found in programming languages, including user-defined data types, using Python and R structures as examples.
 
 *Readings*:
-*
+* Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
 
-*Lab*: **Working with Strings and Lists in Python**
-* Moving from wide to long data and back again, in R and Python
+*Further Resources*:
+* The [**reshape2** package](http://had.co.nz/reshape/) for R.
+* Reshaping data in Python: "[Reshaping and Pivot Tables](https://pandas.pydata.org/pandas-docs/stable/reshaping.html)".  
+* Robin Linderborg, "[Reshaping Data in Python](https://hackernoon.com/reshaping-data-in-python-fa27dda2ff77)", 20 Jan 2017.
+
+*Lab*: **Reshaping and normalizing data**
+* Moving from wide to long data and back again, in R and Python.
+* Merge and join operations.
+* Using lookup and "hash" tables.
+* Normalizing tables through key relations.
 
 ---
-#### Week 4. Using Databases
+#### Week 4. Creating and managing databases
 
-SQL
+We will return to database normalization, and how to implement this using good practice in a relational database manager, SQLLite.  We will cover how to structure data, verify data types, set conditions for data integrity, and perform complex queries to extract data from the database.  We will also cover authentication and how to connect to local and remote databases.   Finally, for a comparison, we will show a different (non-relational) database model through MongoDB, contrasting this to the relational paradigm.
 
 *Readings*:
-*
+*	Lake, Peter.  _Concise Guide to Databases: A Practical Introduction_. Springer, 2013.
+*	Nield, Thomas. _Getting Started with SQL: A hands-on approach for beginners_. O’Reilly, 2016.
+
+*Further Resources*:
+* [SQLite documentation](https://www.sqlite.org/docs.html).
+*   Bassett, L. 2015.  [_Introduction to JavaScript Object Notation: A to-the-point Guide to JSON_](http://shop.oreilly.com/product/0636920041597.do).  O'Reilly Media, Inc.
 
 *Lab*: **Working with a relational database manager**
 * Normalizing a data structure and storing it in SQLLite
+* Enforcing data integrity
 * Constructing queries
 
 
@@ -129,7 +148,13 @@ SQL
 Publicly accessible _application programming interfaces_ (APIs) provide a common source of "big" data available from a variety of sources, such as social media data.  This data consists of a variety of data types, but is usually transmitted in JSON format.  In this session, we will cover the basics of APIs, including authentication and the use of protocols for interacting with APIs, and in processing the data that is obtained using these methods.  We will also discuss common problems in using text, including character encodings, working with Unicode, transforming text into numeric data, and cleaning textual data for analysis.
 
 *Readings*:
-*
+*   something on text, TBC
+*   Cooksey, Brian.  _An Introduction to APIs_.  Zapier, 2014.
+
+
+*Further Resources*:
+* [Documentation on the Twitter REST API](https://dev.twitter.com/rest/public)
+* Richard Ishida. 2015.  "[Character encodings for beginners](https://www.w3.org/International/questions/qa-what-is-encoding)".  W3C.
 
 *Lab*: **Working with social media data: Twitter**
 * Download Twitter data using Twitter's REST APIs
