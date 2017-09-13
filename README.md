@@ -8,6 +8,9 @@
 * [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
 * [Milan Vojnovic](M.Vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: TIME, BLDG
 
+### Teaching Assistant 
+* [Christine Yuen](L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
+
 ### Course Information
 
 * Lectures on Tuesdays 10:00–12:00 in CLM.2.02
