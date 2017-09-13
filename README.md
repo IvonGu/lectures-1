@@ -20,7 +20,14 @@ No lectures or classes will take place during School Reading Week 6.
 
 This course will cover the principles of digital methods for storing and structuring data, including data types, relational and non-relational database design, and query languages. Students will learn to build, populate, manipulate and query databases based on datasets relevant to their fields of interest. The course will also cover workflow management for typical data transformation and cleaning projects, frequently the starting point and most time-consuming part of any data science project. This course uses a project- based learning approach towards the study of online publishing and group -based collaboration, essential ingredients of modern data science projects. The coverage of data sharing will include key skills in on-line publishing, including the elements of web design, the technical elements of web technologies and web programming, as well as the use of revision- control and group collaboration tools such as GitHub. Each student will build one or more interactive website based on content relevant to his/her domain -related interests, and will use GitHub for accessing and submitting course materials and assignments.
 
-In this course, we introduce principles and applications of the electronic storage, structuring, manipulation, transformation, extraction, and dissemination of data. This includes data types, database design, data base implementation, and data analysis through structured queries. Through joining operations, we will also cover the challenges of data linkage and how to combine datasets from different sources. We begin by discussing concepts in fundamental data types, and how data is stored and recorded electronically. We will cover database design, especially relational databases, using substantive examples across a variety of fields. Students are introduced to SQL through MySQL, and programming assignments in this unit of the course will be designed to insure that students learn to create, populate and query an SQL database. We will introduce NoSQL using MongoDB and the JSON data format for comparison. For both types of database, students will be encouraged to work with data relevant to their own interests as they learn to create, populate and query data. In the final section of the data section of the course, we will step through a complete workflow including data cleaning and transformation, illustrating many of the practical challenges faced at the outset of any data analysis or data science project.
+A core objective of this course is to provide students with a well-rounded sense of "data science literacy", meaning you will become familiar with the core structures, terms, protocols, and software that forms the core material of data science and applied computing.  This is a broad category, covering abstract concepts such as database normal forms and complex data structures, but also covers a range of simple tools and formats such as markup languages, web publishing, and working with APIs (application programming interfaces).  In the second half of the course, we will focus on communicating results visually through turning data into plots and other visualizations.
+
+On the theory side, introduce principles and applications of the electronic storage, structuring, manipulation, transformation, extraction, and dissemination of data. This includes data types, database design, data base implementation, and data analysis through structured queries. Through joining operations, we will also cover the challenges of data linkage and how to combine datasets from different sources. We begin by discussing concepts in fundamental data types, and how data is stored and recorded electronically. We will cover database design, especially relational databases, using substantive examples across a variety of fields. Students are introduced to SQL through MySQL, and programming assignments in this unit of the course will be designed to insure that students learn to create, populate and query an SQL database.  We will briefly compare relational databases to other formats of database manager, the "NoSQL" types such as MongoDB, including the JSON data format.  Students will be encouraged to work with data relevant to their own interests as they learn to create, populate and query data.
+
+On the practical side, we will cover a variety of tools with which every data scientist should be familiar, including revision control tools, web publishing formats, tools and commands for reshaping and recasting data, how to work with different data formats, how to merge and link data, and how to publish a website.
+
+In the data visualisation part of the course, we will...
+
 
 
 ### Organization
@@ -37,26 +44,23 @@ No prior experience with programming is required.
 
 ### Software
 
-TWe will use some tools, notably SQLLite, R, and Python, but these will be used in coordination with MY470 (Computer Programming) where their use will be covered more formally.  Lectures and assignments will be posted on Github, Students are expected to use Github also to submit problem sets and final exam.
+We will use some tools, notably SQLLite, R, and Python, but these will be used in coordination with MY470 (Computer Programming) where their use will be covered more formally.  Lectures and assignments will be posted on Github, Students are expected to use Github also to submit problem sets and final exam.
+
+Where appropriate, we will use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
 
 ### Materials
 
 The main course texts will be:
 
-The main course texts will be:
-*	Chodorow, Kristina MongoDB: The Definitive Guide, 2nd Edition O’Reilly 2013. Churcher, Clare. Beginning Database Design: From Novice to Professional. Apress, 2007.
-*	Tahaghoghi, Seyed M. and Hugh E. Williams. Learning MySQL. O'Reilly, 2006. Karumanchi, Narasimha. Data Structures and Algorithms Made Easy: Data Structure and Algorithmic Puzzles, Second Edition. CreateSpace Independent Publishing Platform, 2011.
-*	Lee, Kent. Data Structures and Algorithms with Python. Springer, 2015.
-*	Lake, Peter. Concise Guide to Databases: A Practical Introduction. Springer, 2013.
-*	Nield, Thomas. Getting Started with SQL: A hands-on approach for beginners. O’Reilly, 2016.
-*	Byron, Angela and Addison Berry, Nathan Haug, Jeff Eaton, James Walker, Jeff Robbins Using Drupal: Choosing and Configuring Modules to Build Dynamic Websites. O'Reilly Media, 2008.
-*	Duckett, Jon HTML and CSS: Design and Build Websites New York: Wiley, 2011.
-*	Duckett, Jon JavaScript and JQuery: Interactive Front-End Web Development New York: Wiley, 2014.
-*	Rice, Dylan. Twitter Bootstrap In Your Pocket. CreateSpace Independent Publishing Platform, 2016.
-*	Sklar, David Learning PHP 5 O’Reilly, 2004. GitHub Guides at https://guides.github.com, including: “Understanding the GitHub Flow”, “Hello World”, and “Getting Started with GitHub Pages”.
-*	Jacobson, Daniel APIs: A Strategy Guide O’Reilly: 2012.
-*	London, Kyle Developing Large Web Applications: Producing Code That Can Grow and Thrive O’Reilly, 2010.
-
+*   Karumanchi, Narasimha.  _Data Structures and Algorithms Made Easy: Data Structure and Algorithmic Puzzles_, Second Edition.  5th ed.  CreateSpace Independent Publishing Platform, 2017.
+*	Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
+*	Lake, Peter.  _Concise Guide to Databases: A Practical Introduction_. Springer, 2013.
+*	Nield, Thomas. _Getting Started with SQL: A hands-on approach for beginners_. O’Reilly, 2016.
+*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
+*	GitHub Guides at https://guides.github.com, including: “Understanding the GitHub Flow”, “Hello World”, and “Getting Started with GitHub Pages”.
+*   Cooksey, Brian.  _An Introduction to APIs_.  Zapier, 2014.
+*   Severance, Charles Russell.  _Introduction to Networking: How the Internet Works_.  Charles Severance, 2015.
+*   Bassett, L. 2015.  _Introduction to JavaScript Object Notation: A to-the-point Guide to JSON_.  O'Reilly Media, Inc.
 
 ### Assessment
 
@@ -65,117 +69,135 @@ Take home exam (50%) and in-class assessment (50%). Students will be expected to
 ### Schedule
 
 ---
-#### Week 1. What is Computation?
+#### Week 1. Introduction to Data and Data Types
 
-In the first week, we will introduce the basic concepts in computer programming: computers, algorithms, programming languages, and programs. We will then discuss the elements of programming languages: primitive constructs, syntax, static semantics, and semantics. We will further introduce the essential primitives for all programming languages: data types, operators, expressions, variables and values.
+In the first week, we will introduce the basic concepts of the course, including how data is recorded, stored, and shared.  Because the course relies fundamentally on GitHub, a collaborative code and data sharing platform, we will introduce the use of git and GitHub, using the lab session to guide students through in setting up an account and subscribing to the course organization and assignments.  
+
+This week will also introduce basic data types, in a language agnostic manner, from the perspective of machine implementations through to high-level programming languages.  We will introduce the notion of databases and database managers, and the client-server model.
 
 *Readings*:
 
-* Guttag. Chapters 1-2.1, pp.1–15.
-* Wing, Jeannette M. (2006). [Computational thinking](http://tech-insider.org/academia/research/acrobat/0603.pdf). *Communications of the ACM*, 49(3), 33–35.
+* readings here
 
-*Lab*: **Anaconda, Jupyter, and GitHub**
+*Lab*: Setting up a free personal website using GitHub pages, by forking a repository, staging and committing changes, and pushing these to a repository for publishing a website using Jekyll.
 
-* Installing Python with Anaconda
-* Introduction to Jupyter and other IDEs
-* Submitting assignments on GitHub
+* Installing git and setting up an account on GitHub
+* Using Jupyter notebooks on GitHub
+* How to complete and submit assignments using GitHub Classroom
+* Cloning a website repository, modifying it, and publishing a personal webpage
 
 ---
-#### Week 2. Data Types in Python
+#### Week 2. Deciphering the languages of the Internet
 
-In the next five weeks of the course, we will use Python to get familiar with the elements of programming languages. We will begin with scalar data types, operators, expressions, and value assignment to variables. We will also cover non-scalar, also known as compound or structured, data types (lists, tuples, sets, and dictionaries) and discuss the difference between mutable and immutable and ordered and unordered types. As lists are very commonly used, we will further overview the most common list operations, including indexing, slicing, appending, splitting, aliasing, and cloning.  
+This week covers markup languages, content style sheets, and web protocols for publishing and transmitting data.  Continuing from the material covered in the first week lab session, we will cover markup languages, including HTML, XML, and Markdown, as well as common data formats such as JSON (Javascript Object Notation).  We will learn about class abstraction using CSS (content style sheets) and adding functionality to web pages through the use of simple Javascript.  We will also cover the client-server model, and how machines and humans transmit data over networks and to and from databases.
 
 *Readings*:
-* Guttag. Chapters 2.3, 5.1-5.3, 5.5-5.6, pp.18–21, 65–73, 77–84.
+*
+
+*Lab*: **More on on-line publishing**
+* Adding functionality to our website, and creating an interface to web data.
+* Mastering Markdown.
+
+
+
+#### Week 3. Complex Data Types and Structured Data
+
+This week moves beyond the rectangular format common in statistical datasets, modeled on a spreadsheet, to cover relational structures and database normalization.  We will also cover ways to restructure data from "wide" to "long" format, within strictly rectangular data structures.  We will also cover more complex data types found in programming languages, including user-defined data types, using Python and R structures as examples.
+
+*Readings*:
+*
 
 *Lab*: **Working with Strings and Lists in Python**
-* Programing with simple statements, including `print()`, `len()`, `append()`, `extend()`, `pop()`, `remove()`, `split()`, `join()`, `sort()`, and `sorted()`
+* Moving from wide to long data and back again, in R and Python
 
 ---
-#### Week 3. Control Flow in Python
+#### Week 4. Using Databases
 
-Control flow defines the order in which statements are evaluated and executed in a program. In Python, indentation plays a crucial role in determining the control flow. In this week, we will discuss branching and iteration and how to write these in Python using `if`-`else` statements, `while` loops, `for` loops, `range()`, `break`, and `continue`. We will also introduce the extremely useful concept of list comprehensions.
+SQL
 
 *Readings*:
-* Guttag. Chapters 2.2, 2.4–3.2, pp.15–18, 22–30.
+*
 
-*Lab*: **For Loops and List Comprehensions in Python**
-* Control flow best practices and pitfalls
-* Nested dictionary and list comprehensions
+*Lab*: **Working with a relational database manager**
+* Normalizing a data structure and storing it in SQLLite
+* Constructing queries
+
 
 ---
-#### Week 4. Functions in Python
+#### Week 5. Working with text and other published data
 
-Good programmers are not measured by the amount of code they write but by the amount of functionality in their code. Good programming relies on abstraction and decomposition. Decomposition creates structure while abstraction helps hide details. Decomposition and abstraction can be achieved with functions and classes and in this week, we will introduce functions. We will discuss function arguments and variable scope and by means of an example, we will introduce the concept of recursion.
+Publicly accessible _application programming interfaces_ (APIs) provide a common source of "big" data available from a variety of sources, such as social media data.  This data consists of a variety of data types, but is usually transmitted in JSON format.  In this session, we will cover the basics of APIs, including authentication and the use of protocols for interacting with APIs, and in processing the data that is obtained using these methods.  We will also discuss common problems in using text, including character encodings, working with Unicode, transforming text into numeric data, and cleaning textual data for analysis.
 
 *Readings*:
-* Guttag. Chapter 4, pp.39–63.
+*
 
-*Lab*: **Writing and Calling Functions in Python**
+*Lab*: **Working with social media data: Twitter**
+* Download Twitter data using Twitter's REST APIs
+* Clean and process the data
+* Normalize the data and store it
+* Perform basic analysis of the text and non-textual data.
+
 
 ---
-#### Week 5. Classes in Python
+#### Week 6. Reading Week
 
-Object-oriented programming is a programming paradigm that helps increase modularity, reduce complexity, and foster code reuse. Objects are a data abstraction consisting of (1) an internal representation i.e. object attributes and (2) an interface for interacting with the objects through methods and functions. Objects are instances of classes and classes determine the type of an object. In this week, we will discuss how to define classes in Python and how to create instances of a class. We will also touch upon class inheritance and hierarchies.
-
-*Readings*:
-* Guttag. Chapter 8, pp.109–134.
-
-*Lab*: **Programming in Teams**
-* Programming in teams
-* Commenting code
 
 ---
-#### Week 7. Testing and Debugging in Python
+#### Week 7. Data Visualisation 1
 
-Writing computer programs is easy but making them work properly is hard. We test programs to check if they work as intended and we debug them when we find out that they don’t. In this lecture, we will discuss different ways to test and debug programs. We will cover common error messages and how to catch them with `try`, `except`, `raise`, and `assert`.
+Description here.
 
 *Readings*:
-* Guttag. Chapters 6–7, pp.85–108.
+* Readings here
 
-*Lab*: **Exceptions and Assertions in Python**
+*Lab*: **Lab Title Here**
+* lab details 1
+* lab details 2
 
 ---
-#### Week 8. Data Types and Control Flow in R
+#### Week 8. Data Visualisation 2
 
-In the next two weeks of the course, we will review the concepts learned until now by learning how they are implemented in the R programming language. We will start with basic data types in R (vectors, lists, matrices, factors, data frames) and control flow (if-else statements, for and while loops, repeat, next, break).
+Description here.
 
 *Readings*:
+* Readings here
 
-*Lab*: **Introduction to R**
-* Installing R with Anaconda
-* Introduction to RStudio and workflow
-* Practicing simple statements and control flow
+*Lab*: **Lab Title Here**
+* lab details 1
+* lab details 2
 
 ---
-#### Week 9. Functions and Debugging in R
+#### Week 9. Data Visualisation 3
 
-Continuing from the previous week, we will cover vectorized operations in R (including `lapply`, `mapply`, `tapply`, `split`), functions, and variable scoping.
+Description here.
 
 *Readings*:
+* Readings here
 
-
-*Lab*: **Writing Functions in R**
+*Lab*: **Lab Title Here**
+* lab details 1
+* lab details 2
 
 ---
-#### Week 10. Algorithms and Order of Growth
+#### Week 10. Data Visualisation 4
 
-Algorithms are recipes that consist of a sequence of simple steps, control flow, and stopping rule. To evaluate the scalability of algorithms and to compare their efficiency, we use the abstraction “order of growth”. Order of growth expresses how the maximum amount of time needed grows as the size of the input grows. We will discuss different complexity classes and ways to analyze the complexity of programs.
+Description here.
 
 *Readings*:
-* Guttag. Chapter 9, pp.135–149.
+* Readings here
 
-*Lab*: **Order of Growth**
-* Reading and evaluating order of growth of programs written in Python and R
+*Lab*: **Lab Title Here**
+* lab details 1
+* lab details 2
 
 ---
-#### Week 11. Searching and Sorting Algorithms
+#### Week 11. Data Visualisation 5
 
-We will use the concepts and approaches introduced in the previous lecture to look at the complexity of several classic algorithms on searching and sorting. The goal is to get a better intuition of how to approach problems of efficiency. We will use examples written in both Python and R. The lecture will end with an overview of Python modules and R packages that are useful for data manipulation, analysis, and visualization.  
+Description here.
 
 *Readings*:
-* Guttag. Chapter 10.1–10.2, pp.151–164.
+* Readings here
 
-*Lab*: **Course Summary**
-* Writing programs in Python and R
-* Useful libraries for data science
+*Lab*: **Lab Title Here**
+* lab details 1
+* lab details 2
