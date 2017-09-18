@@ -252,7 +252,7 @@ In the last week, we will consider the basic methods for visualisation of graph 
 
 *Readings*:
 * A. Hagberg, D. Schult and P. Swart, [NetworkX Reference]( https://networkx.github.io/documentation/latest/_downloads/networkx_reference.pdf)
-* NetworkX: Software for complex networks, "[https://networkx.github.io/](https://networkx.github.io/)
+* NetworkX: Software for complex networks, [https://networkx.github.io/](https://networkx.github.io/)
 * [Graphviz – Graph Visualisation Software](http://graphviz.org/), especially manual pages, layout commands
 
 
