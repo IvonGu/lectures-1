@@ -209,7 +209,7 @@ We will continue our consideration of data visualisations for exploratory data a
 
 In this week, we will introduce standard statistical plots used for the performance evaluation of statistical models and machine learning algorithms for classification tasks. We will introduce standard statistical plots for assessing the performance of binary classifiers, such as receiver operating characteristic (ROC) and precision-recall (PR) curves. We will learn how to interpret these plots and discuss their advantages and limitations.  
 
-We will also discuss various standard metrics used for assessing the performance of binary classifiers, such as accuracy, area under the curve (AUC) and Gini coefficient, discuss their relation to the ROC curve and discuss their relation to the ROC curve, advantages and limitations.
+We will also discuss various standard metrics used for assessing the performance of binary classifiers, such as accuracy, area under the curve (AUC) and Gini coefficient, discuss their relation to the ROC curve, as well as their advantages and limitations.
 
 
 *Readings*:
