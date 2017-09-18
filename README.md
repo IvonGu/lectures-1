@@ -223,7 +223,7 @@ We will also discuss various standard metrics used for assessing the performance
 * Comparing binary classifiers in ROC space
 * Comparing binary classifiers in PR space
 * Comparison of ROC and PR curves
-* Accuracy, AUC and othe metrics
+* Accuracy, AUC and other metrics
 
 ---
 #### Week 10. Dimensionality Reduction
