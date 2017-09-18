@@ -6,7 +6,7 @@
 ### Instructors
 
 * [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
-* [Milan Vojnovic](m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: COL, 2.05A
+* [Milan Vojnovic](m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL, 2.05A
 
 ### Teaching Assistant 
 * [Christine Yuen](L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
@@ -197,7 +197,7 @@ We will continue our consideration of data visualisations for exploratory data a
 *Readings*:
 * K. Dale, Data Visualization with Python & JavaScript, O'Reilly, 2016
 * S. Few, Show Me the Numbers: Designing Tables and Graphs to Enlighten, Second Edition, Analytics Press, 2012
-* L. Wilkinson and M. Friendly, [History Corner: THe History of the Cluster Heat Map](https://www.cs.uic.edu/~wilkinson/Publications/heatmap.pdf), The American Statistician, Vol 63, No 2, May 2009
+* L. Wilkinson and M. Friendly, [History Corner: The History of the Cluster Heat Map](https://www.cs.uic.edu/~wilkinson/Publications/heatmap.pdf), The American Statistician, Vol 63, No 2, May 2009
 
 *Lab*: **Statistical Plots using Matplotlib and Seaborn**
 * Scatterplot and scatterplot matrix
@@ -230,7 +230,7 @@ We will also discuss various standard metrics used for assessing the performance
 
 We will consider how to visualize hidden structures in high-dimensional data, such as hidden clusters or low-dimension manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods. 
 
-Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern data software for dimensionality reduction such as Google embedding projector. 
+Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern applications for visualizing different dimensionality reductions such as Google embedding projector. 
 
 
 *Readings*:
@@ -251,9 +251,13 @@ Our focus will be on the dimensionality methods that are commonly used in practi
 In the last week, we will consider the basic methods for visualisation of graph data such as visualising relationships in a social network. We will consider different choices of graph layouts and how they are computed. This will involve methods based on simple principles for drawing graphs that have a tree structure as well as more sophisticated methods based on spectral theory of linear algebra for general graphs.
 
 *Readings*:
-* Readings here
-
-*Lab*: **Lab Title Here**
 * A. Hagberg, D. Schult and P. Swart, [NetworkX Reference]( https://networkx.github.io/documentation/latest/_downloads/networkx_reference.pdf)
 * NetworkX: Software for complex networks, "[https://networkx.github.io/](https://networkx.github.io/)
 * [Graphviz – Graph Visualisation Software](http://graphviz.org/), especially manual pages, layout commands
+
+
+*Lab*: **Graph Drawing using NetworkX**
+* Loading and manipulating graphs using NetworkX
+* Changing basic properties of graph visualization such as node or edge colors
+* Drawing graphs using different layouts
+* Using graphviz graph layouts
