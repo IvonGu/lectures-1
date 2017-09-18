@@ -6,7 +6,7 @@
 ### Instructors
 
 * [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
-* [Milan Vojnovic](M.Vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: TIME, BLDG
+* [Milan Vojnovic](m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: COL, 2.05A
 
 ### Teaching Assistant 
 * [Christine Yuen](L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
@@ -171,61 +171,89 @@ Publicly accessible _application programming interfaces_ (APIs) provide a common
 
 
 ---
-#### Week 7. Data Visualisation 1
+#### Week 7. Exploratory Data Analysis
 
-Description here.
+We will introduce the basic statistical plots that are commonly used in exploratory data analysis. We will first consider standard plots for univariate data analysis, including histograms, empirical distribution functions, as well as plots of summary statistics such as boxplots. We will then consider different variants of bar plots, which are commonly used for comparison of parallel batches of data.
 
 *Readings*:
-* Readings here
+* E. R. Tufte, The Visual Display of Quantitative Information, Second Edition, Graphics Press, 2001
+* J. W. Tukey, Exploratory Data Analysis, Pearson, 1977
+* H. Wickham, ggplot2: Elegant Graphics for Data Analysis, Second Edition, Springer, 2016
+* "[Matplotlib](https://matplotlib.org)"
+* "[Seaborn: statistical data visualization](https://seaborn.pydata.org)"
 
-*Lab*: **Lab Title Here**
-* lab details 1
-* lab details 2
+*Lab*: **Matplotlib primer and basic statistical plots**
+* Customizing plot style, axes labels, ticks, and scale
+* Plotting using Matplotlib, dataframe and datastream APIs
+* Histogram and cumulative histogram plots
+* Boxplots, notched boxplots and violin plots
+* Bar plots, horizontal, vertical and stacked
 
 ---
-#### Week 8. Data Visualisation 2
+#### Week 8. Exploratory Data Analysis (Cont'd)
 
-Description here.
+We will continue our consideration of data visualisations for exploratory data analysis by examining various other statistical plots, primarily focusing on those used for multivariate data analysis and time series data. We will consider the use of scatter plots and heatmaps.  
 
 *Readings*:
-* Readings here
+* K. Dale, Data Visualization with Python & JavaScript, O'Reilly, 2016
+* S. Few, Show Me the Numbers: Designing Tables and Graphs to Enlighten, Second Edition, Analytics Press, 2012
+* L. Wilkinson and M. Friendly, "[History Corner: THe History of the Cluster Heat Map](https://www.cs.uic.edu/~wilkinson/Publications/heatmap.pdf)", The American Statistician, Vol 63, No 2, May 2009
 
-*Lab*: **Lab Title Here**
-* lab details 1
-* lab details 2
+*Lab*: **Statistical Plots using Matplotlib and Seaborn**
+* Scatterplot and scatterplot matrix
+* Matrix reordering, clustering and bi-clustering
+* Time series plotting, autocorrelation plot
 
 ---
-#### Week 9. Data Visualisation 3
+#### Week 9. Model Evaluation
 
-Description here.
+In this week, we will introduce standard statistical plots used for the performance evaluation of statistical models and machine learning algorithms for classification tasks. We will introduce standard statistical plots for assessing the performance of binary classifiers, such as receiver operating characteristic (ROC) and precision-recall (PR) curves. We will learn how to interpret these plots and discuss their advantages and limitations.  
+
+We will also discuss various standard metrics used for assessing the performance of binary classifiers, such as accuracy, area under the curve (AUC) and Gini coefficient, discuss their relation to the ROC curve and discuss their relation to the ROC curve, advantages and limitations.
+
 
 *Readings*:
-* Readings here
+* J. A. Sweets, R. M. Dawes and J. Monahan, "[Better Decisions through Science](http://ist-socrates.berkeley.edu/~maccoun/LP_SwetsDawesMonahan2000.pdf)", Scientific American, October 2000, pp 82-87
+* T. Fawcet, An Introduction to ROC Analysis, Pattern recognition letters, Vol 27, pp 861-874, 2006
+* N. Japkowicz and M. Shah, Evaluating Learning Algorithms: A Classification Perspective, Cambridge University Press, 2011
+* API reference: "[sklearn.metrics](http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics)" 
 
-*Lab*: **Lab Title Here**
-* lab details 1
-* lab details 2
+
+*Lab*: **Evaluating classifiers using sklearn.metrics**
+* Comparing binary classifiers in ROC space
+* Comparing binary classifiers in PR space
+* Comparison of ROC and PR curves
+* Accuracy, AUC and othe metrics
 
 ---
-#### Week 10. Data Visualisation 4
+#### Week 10. Dimensionality Reduction
 
-Description here.
+We will consider how to visualize hidden structures in high-dimensional data, such as hidden clusters or low-dimension manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods. 
+
+Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern data software for dimensionality reduction such as Google embedding projector. 
+
 
 *Readings*:
-* Readings here
+* T. F. Cox and M. A. A. Cox, Multidimensional Scaling, Second Edition, Chapman & Hall / CRC, 2000
+* I. Borg and P. J. F. Groenen, Modern Multidimensional Scaling: Theory and Applications, Second Edition, Springer, 2005
+* A. Geron, Hands-on Machine Learning with Scikit-Learn & TensorFlow, O’Reilly, 2017, Chapter 8, Dimensionality Reduction
+* Google's "[embedding projector](http://projector.tensorflow.org)"
+* API reference, "[scikit learn, Section 2.2: manifold learning](http://scikit-learn.org/stable/modules/manifold.html)" 
 
-*Lab*: **Lab Title Here**
-* lab details 1
-* lab details 2
+*Lab*: **Dimensionality Reduction using sklearn.manifold**
+* Plotting dimensionality reductions using different methods
+* Understanding the meaning of input parameters
+* Understanding the sensitivity to the choice of input parameters
 
 ---
-#### Week 11. Data Visualisation 5
+#### Week 11. Graph Data Visualization
 
-Description here.
+In the last week, we will consider the basic methods for visualisation of graph data such as visualising relationships in a social network. We will consider different choices of graph layouts and how they are computed. This will involve methods based on simple principles for drawing graphs that have a tree structure as well as more sophisticated methods based on spectral theory of linear algebra for general graphs.
 
 *Readings*:
 * Readings here
 
 *Lab*: **Lab Title Here**
-* lab details 1
-* lab details 2
+* A. Hagberg, D. Schult and P. Swart, "[NetworkX Reference]( https://networkx.github.io/documentation/latest/_downloads/networkx_reference.pdf)"
+* NetworkX: Software for complex networks, "[https://networkx.github.io/](https://networkx.github.io/)"
+* "[Graphviz – Graph Visualisation Software](http://graphviz.org/)", especially manual pages, layout commands
