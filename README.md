@@ -8,7 +8,7 @@
 * [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
 * [Milan Vojnovic](m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL, 2.05A
 
-### Teaching Assistant 
+### Teaching Assistant
 * [Christine Yuen](L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
 
 ### Course Information
@@ -17,6 +17,21 @@
 * Classes on Thursdays 13:00–14:30 in TW2.4.02
 
 No lectures or classes will take place during School Reading Week 6.
+
+| **Week** | **Topic**                            |
+|----------|--------------------------------------|
+| 1        | [Introduction to Data](#week-1-introduction-to-data) |
+| 2        | [The shape of data](#week-2-the-shape-of-data)                  |
+| 3        | [Creating and managing databases](#week-3-creating-and-managing-databases)    |
+| 4        | [Using data from the Internet](#week-4-using-data-from-the-internet)       |
+| 5        | [Working with APIs](#week-5-working-with-apis)                  |
+| 6        | _Reading Week_                       |
+| 7        | [Exploratory Data Analysis]          |
+| 8        | [Exploratory Data Analysis (Cont'd)] |
+| 9        | [Model Evaluation]                   |
+| 10       | [Dimensionality Reduction]           |
+| 11       | [Graph Data Visualization]           |
+
 
 
 ### Course Description
@@ -29,7 +44,9 @@ On the theory side, introduce principles and applications of the electronic stor
 
 On the practical side, we will cover a variety of tools with which every data scientist should be familiar, including revision control tools, web publishing formats, tools and commands for reshaping and recasting data, how to work with different data formats, how to merge and link data, and how to publish a website.
 
-In the data visualisation part of the course, we will...
+In the data visualisation part of the course, we will cover a variety of principles, tools, and methods for visualizing data.
+
+The final project will...
 
 
 
@@ -66,9 +83,9 @@ Take home exam (50%) and in-class assessment (50%). Students will be expected to
 ### Schedule
 
 ---
-#### Week 1. Introduction to Data and Data Types
+#### Week 1. Introduction to Data
 
-In the first week, we will introduce the basic concepts of the course, including how data is recorded, stored, and shared.  Because the course relies fundamentally on GitHub, a collaborative code and data sharing platform, we will introduce the use of git and GitHub, using the lab session to guide students through in setting up an account and subscribing to the course organization and assignments.  
+In the first week, we will introduce the basic concepts of the course, including how data is recorded, stored, and shared.  Because the course relies fundamentally on GitHub, a collaborative code and data sharing platform, we will introduce the use of git and GitHub, using the lab session to guide students through in setting up an account and subscribing to the course organisation and assignments.  
 
 This week will also introduce basic data types, in a language agnostic manner, from the perspective of machine implementations through to high-level programming languages.  We will introduce the notion of databases and database managers, and the client-server model.
 
@@ -81,7 +98,7 @@ A step-by-step beginner's guide to creating a personal website and blog using Je
 
 *Further Readings*:
 * Nelson, Meghan.  2015.  "[An Intro to Git and GitHub for Beginners (Tutorial).](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)"
-
+* GitHub.  "[Markdown Syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)" (a cheatsheet).  
 
 *Lab*: **Setting up a website using GitHub pages**, by forking a repository, staging and committing changes, and pushing these to a repository for publishing a website using Jekyll.
 * Installing git and setting up an account on GitHub
@@ -90,27 +107,9 @@ A step-by-step beginner's guide to creating a personal website and blog using Je
 * Cloning a website repository, modifying it, and publishing a personal webpage
 
 ---
-#### Week 2. Deciphering the languages of the Internet
+#### Week 2. The shape of data
 
-This week covers markup languages, content style sheets, and web protocols for publishing and transmitting data.  Continuing from the material covered in the first week lab session, we will cover markup languages, including HTML, XML, and Markdown, as well as common data formats such as JSON (Javascript Object Notation).  We will learn about class abstraction using CSS (content style sheets) and adding functionality to web pages through the use of simple Javascript.  We will also cover the client-server model, and how machines and humans transmit data over networks and to and from databases.
-
-*Readings*:
-*   Severance, Charles Russell.  [_Introduction to Networking: How the Internet Works_](http://www.net-intro.com).  Charles Severance, 2015.
-*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
-
-*Further Resources*:
-* GitHub.  "[Markdown Syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)" (a cheatsheet).  
-* Shay Howe. 2015.  [_Learn to Code HTML and CSS: Develop and Style Websites_](http://learn.shayhowe.com/html-css/).  New Riders.  
-
-
-*Lab*: **Advanced on-line publishing**
-* Mastering Markdown.
-* Adding functionality to our website, and creating an interface to web data.
-
----
-#### Week 3. Complex Data Types and Structured Data
-
-This week moves beyond the rectangular format common in statistical datasets, modeled on a spreadsheet, to cover relational structures and database normalization.  We will also cover ways to restructure data from "wide" to "long" format, within strictly rectangular data structures.  We will also cover more complex data types found in programming languages, including user-defined data types, using Python and R structures as examples.
+This week moves beyond the rectangular format common in statistical datasets, modeled on a spreadsheet, to cover relational structures and the concept of database normalization.  We will also cover ways to restructure data from "wide" to "long" format, within strictly rectangular data structures.
 
 *Readings*:
 * Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
@@ -127,7 +126,8 @@ This week moves beyond the rectangular format common in statistical datasets, mo
 * Normalizing tables through key relations.
 
 ---
-#### Week 4. Creating and managing databases
+
+#### Week 3. Creating and managing databases
 
 We will return to database normalization, and how to implement this using good practice in a relational database manager, SQLLite.  We will cover how to structure data, verify data types, set conditions for data integrity, and perform complex queries to extract data from the database.  We will also cover authentication and how to connect to local and remote databases.   Finally, for a comparison, we will show a different (non-relational) database model through MongoDB, contrasting this to the relational paradigm.
 
@@ -146,7 +146,26 @@ We will return to database normalization, and how to implement this using good p
 
 
 ---
-#### Week 5. Working with text and other published data
+#### Week 4. Using data from the Internet
+
+This week covers markup languages, content style sheets, and web protocols for publishing and transmitting data.  Continuing from the material covered in the first week lab session, we will cover markup languages, including HTML, XML, and Markdown, as well as common data formats such as JSON (Javascript Object Notation).  We will cover basic web scraping, to turn web data into text or numbers.  We will also cover the client-server model, and how machines and humans transmit data over networks and to and from databases.
+
+*Readings*:
+*   Severance, Charles Russell.  [_Introduction to Networking: How the Internet Works_](http://www.net-intro.com).  Charles Severance, 2015.
+
+*Further Resources*:
+
+* Shay Howe. 2015.  [_Learn to Code HTML and CSS: Develop and Style Websites_](http://learn.shayhowe.com/html-css/).  New Riders.  
+*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
+
+
+*Lab*: **Advanced on-line publishing**
+* Mastering Markdown.
+* Adding functionality to our website, and creating an interface to web data.
+
+---
+
+#### Week 5. Working with APIs
 
 Publicly accessible _application programming interfaces_ (APIs) provide a common source of "big" data available from a variety of sources, such as social media data.  This data consists of a variety of data types, but is usually transmitted in JSON format.  In this session, we will cover the basics of APIs, including authentication and the use of protocols for interacting with APIs, and in processing the data that is obtained using these methods.  We will also discuss common problems in using text, including character encodings, working with Unicode, transforming text into numeric data, and cleaning textual data for analysis.
 
@@ -216,7 +235,7 @@ We will also discuss various standard metrics used for assessing the performance
 * J. A. Sweets, R. M. Dawes and J. Monahan, [Better Decisions through Science](http://ist-socrates.berkeley.edu/~maccoun/LP_SwetsDawesMonahan2000.pdf), Scientific American, October 2000, pp 82-87
 * T. Fawcet, An Introduction to ROC Analysis, Pattern recognition letters, Vol 27, pp 861-874, 2006
 * N. Japkowicz and M. Shah, Evaluating Learning Algorithms: A Classification Perspective, Cambridge University Press, 2011
-* API reference: [sklearn.metrics](http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics) 
+* API reference: [sklearn.metrics](http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics)
 
 
 *Lab*: **Evaluating classifiers using sklearn.metrics**
@@ -228,9 +247,9 @@ We will also discuss various standard metrics used for assessing the performance
 ---
 #### Week 10. Dimensionality Reduction
 
-We will consider how to visualize hidden structures in high-dimensional data, such as hidden clusters or low-dimension manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods. 
+We will consider how to visualize hidden structures in high-dimensional data, such as hidden clusters or low-dimension manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods.
 
-Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern applications for visualizing different dimensionality reductions such as Google embedding projector. 
+Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern applications for visualizing different dimensionality reductions such as Google embedding projector.
 
 
 *Readings*:
@@ -238,7 +257,7 @@ Our focus will be on the dimensionality methods that are commonly used in practi
 * I. Borg and P. J. F. Groenen, Modern Multidimensional Scaling: Theory and Applications, Second Edition, Springer, 2005
 * A. Geron, Hands-on Machine Learning with Scikit-Learn & TensorFlow, O’Reilly, 2017, Chapter 8, Dimensionality Reduction
 * Google's [embedding projector](http://projector.tensorflow.org)
-* API reference, [scikit learn, Section 2.2: manifold learning](http://scikit-learn.org/stable/modules/manifold.html) 
+* API reference, [scikit learn, Section 2.2: manifold learning](http://scikit-learn.org/stable/modules/manifold.html)
 
 *Lab*: **Dimensionality Reduction using sklearn.manifold**
 * Plotting dimensionality reductions using different methods
