@@ -190,9 +190,9 @@ Publicly accessible _application programming interfaces_ (APIs) provide a common
 We will introduce the basic statistical plots that are commonly used in exploratory data analysis. We will first consider standard plots for univariate data analysis, including histograms, empirical distribution functions, as well as plots of summary statistics such as boxplots. We will then consider different variants of bar plots, which are commonly used for comparison of parallel batches of data.
 
 *Readings*:
+* M. Friendly, [A Brief History of Data Visualization](http://www.datavis.ca/papers/hbook.pdf), Handbook of Computational Statistics: Data Visualization (Editors C. Chen, W. Hardle and A. Unwin), Vol III, Springer-Verlag, 2006  
 * E. R. Tufte, The Visual Display of Quantitative Information, Second Edition, Graphics Press, 2001
 * J. W. Tukey, Exploratory Data Analysis, Pearson, 1977
-* H. Wickham, ggplot2: Elegant Graphics for Data Analysis, Second Edition, Springer, 2016
 * [Matplotlib](https://matplotlib.org)
 * [Seaborn: statistical data visualization](https://seaborn.pydata.org)
 
@@ -210,6 +210,7 @@ We will continue our consideration of data visualisations for exploratory data a
 
 *Readings*:
 * K. Dale, Data Visualization with Python & JavaScript, O'Reilly, 2016
+* H. Wickham, ggplot2: Elegant Graphics for Data Analysis, Second Edition, Springer, 2016
 * S. Few, Show Me the Numbers: Designing Tables and Graphs to Enlighten, Second Edition, Analytics Press, 2012
 * L. Wilkinson and M. Friendly, [History Corner: The History of the Cluster Heat Map](https://www.cs.uic.edu/~wilkinson/Publications/heatmap.pdf), The American Statistician, Vol 63, No 2, May 2009
 
