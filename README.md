@@ -5,11 +5,11 @@
 
 ### Instructors
 
-* [Kenneth Benoit](k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
-* [Milan Vojnovic](m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL, 2.05A
+* [Kenneth Benoit](mailto:k.r.benoit@lse.ac.uk), Department of Methodology.  *Office hours*: By appointment, COL 8.11
+* [Milan Vojnovic](mailto:m.vojnovic@lse.ac.uk), Department of Statistics.  *Office hours*: By appointment, COL, 2.05A
 
 ### Teaching Assistant
-* [Christine Yuen](L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
+* [Christine Yuen](mailto:L.T.Yuen@lse.ac.uk), Department of Statistics.  *Office hours*: Thursday 14:30 - 15:30, COL 5.01
 
 ### Course Information
 
@@ -26,11 +26,11 @@ No lectures or classes will take place during School Reading Week 6.
 | 4        | [Using data from the Internet](#week-4-using-data-from-the-internet)       |
 | 5        | [Working with APIs](#week-5-working-with-apis)                  |
 | 6        | _Reading Week_                       |
-| 7        | [Exploratory Data Analysis]          |
-| 8        | [Exploratory Data Analysis (Cont'd)] |
-| 9        | [Model Evaluation]                   |
-| 10       | [Dimensionality Reduction]           |
-| 11       | [Graph Data Visualization]           |
+| 7        | [Exploratory Data Analysis](#week-7-exploratory-data-analysis)          |
+| 8        | [Exploratory Data Analysis (Cont'd)](#week-8-exploratory-data-analysis-contd) |
+| 9        | [Model Evaluation](#week-9-model-evaluation)                   |
+| 10       | [Dimensionality Reduction](#week-10-dimensionality-reduction)           |
+| 11       | [Graph Data Visualization](#week11-graph-data-visualization)           |
 
 
 
@@ -68,17 +68,9 @@ We will use some tools, notably SQLite, R, and Python, but these will be used in
 
 Where appropriate, we will use Jupyter notebooks for lab assignments, demonstrations, and the course notes themselves.
 
-### Materials
-
-The main course texts will be:
-
-*   Karumanchi, Narasimha.  _Data Structures and Algorithms Made Easy: Data Structure and Algorithmic Puzzles_, Second Edition.  5th ed.  CreateSpace Independent Publishing Platform, 2017.
-*	Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
-*	GitHub Guides at https://guides.github.com, including: "Understanding the GitHub Flow", "Hello World", and "Getting Started with GitHub Pages".
-
 ### Assessment
 
-Take home exam (50%) and in-class assessment (50%). Students will be expected to produce 10 problem sets in the MT. Student problem sets will be marked each week, and will provide 50% of the mark.
+Take home exam (50%) and in-class assessment (50%). Students will be expected to produce 10 problem sets in the MT.  Student problem sets will be marked each week, and will provide 50% of the mark.
 
 ### Schedule
 
@@ -87,18 +79,20 @@ Take home exam (50%) and in-class assessment (50%). Students will be expected to
 
 In the first week, we will introduce the basic concepts of the course, including how data is recorded, stored, and shared.  Because the course relies fundamentally on GitHub, a collaborative code and data sharing platform, we will introduce the use of git and GitHub, using the lab session to guide students through in setting up an account and subscribing to the course organisation and assignments.  
 
-This week will also introduce basic data types, in a language agnostic manner, from the perspective of machine implementations through to high-level programming languages.  We will introduce the notion of databases and database managers, and the client-server model.
+This week will also introduce basic data types, in a language-agnostic manner, from the perspective of machine implementations through to high-level programming languages.  We will introduce the notion of databases and database managers, and the client-server model.
 
 *Readings*:
-* something from Karamanchi or the Lee text.
-* Chacon, Scott and Ben Straub. [_Pro Git_](https://git-scm.com/book/en/v2). 2nd ed. Apress.  Chapters 1-2.
+* Lake, P. and Crowther, P. 2013. _Concise guide to databases: A Practical Introduction_.  London: Springer-Verlag.  Chapter 1, [Data, an Organizational Asset](https://books.google.co.uk/books?id=SuK2BAAAQBAJ&pg=PA301&lpg=PA301&dq=Concise+Guide+to+Databases+pdf&source=bl&ots=pEJj8miMrf&sig=3nrRgpk3kF7fXzcWUWpJ_uzpfl0&hl=en&sa=X&ved=0ahUKEwiAkM3JrbHWAhXE7xQKHWseCZAQ6AEISzAH#v=onepage&q=Concise%20Guide%20to%20Databases%20pdf&f=false)
+* Goodrich, M.T., Tamassia, R. and Goldwasser, M.H. 2013. _Data structures and algorithms in Python_. John Wiley & Sons Ltd.  Ch. 1, through section 1.3.
+* Wickham, Hadley.  Nd.  _Advanced R_, 2nd ed.  Ch 1, [Introduction](https://adv-r.hadley.nz/introduction), and Chapter 2, [Data Structures](https://adv-r.hadley.nz/data-structures).
 * [GitHub Guides](https://guides.github.com), especially: "Understanding the GitHub Flow", "Hello World", and "Getting Started with GitHub Pages".
-* Jim McGlone, "[Creating and Hosting a Personal Site on GitHub
-A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.](http://jmcglone.com/guides/github-pages/)".
 
 *Further Readings*:
 * Nelson, Meghan.  2015.  "[An Intro to Git and GitHub for Beginners (Tutorial).](http://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)"
 * GitHub.  "[Markdown Syntax](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)" (a cheatsheet).  
+* Chacon, Scott and Ben Straub. [_Pro Git_](https://git-scm.com/book/en/v2). 2nd ed. Apress.  Chapters 1-2.
+* Jim McGlone, "[Creating and Hosting a Personal Site on GitHub
+A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.](http://jmcglone.com/guides/github-pages/)".
 
 *Lab*: **Setting up a website using GitHub pages**, by forking a repository, staging and committing changes, and pushing these to a repository for publishing a website using Jekyll.
 * Installing git and setting up an account on GitHub
@@ -106,20 +100,21 @@ A step-by-step beginner's guide to creating a personal website and blog using Je
 * How to complete and submit assignments using GitHub Classroom
 * Cloning a website repository, modifying it, and publishing a personal webpage
 
+
 ---
 #### Week 2. The shape of data
 
 This week moves beyond the rectangular format common in statistical datasets, modeled on a spreadsheet, to cover relational structures and the concept of database normalization.  We will also cover ways to restructure data from "wide" to "long" format, within strictly rectangular data structures.
 
 *Readings*:
-* Lee, Kent.  _Data Structures and Algorithms with Python_. Springer, 2015.
+* Wickham, Hadley and Garett Grolemund.  2017.  _R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_.  Sebastopol, CA: O'Reilly.  [Part II Wrangle](http://r4ds.had.co.nz/wrangle-intro.html, [Tibbles](), [Data Import](http://r4ds.had.co.nz/data-import.html), [Tidy Data](http://r4ds.had.co.nz/tidy-data.html) (Ch. 7-9 of the print edition).
+* The [**reshape2** package](http://had.co.nz/reshape/) for R.
 
 *Further Resources*:
-* The [**reshape2** package](http://had.co.nz/reshape/) for R.
 * Reshaping data in Python: "[Reshaping and Pivot Tables](https://pandas.pydata.org/pandas-docs/stable/reshaping.html)".  
 * Robin Linderborg, "[Reshaping Data in Python](https://hackernoon.com/reshaping-data-in-python-fa27dda2ff77)", 20 Jan 2017.
 
-*Lab*: **Reshaping and normalizing data**
+*Lab*: **Reshaping and data in R**
 * Moving from wide to long data and back again, in R and Python.
 * Merge and join operations.
 * Using lookup and "hash" tables.
@@ -132,8 +127,8 @@ This week moves beyond the rectangular format common in statistical datasets, mo
 We will return to database normalization, and how to implement this using good practice in a relational database manager, SQLLite.  We will cover how to structure data, verify data types, set conditions for data integrity, and perform complex queries to extract data from the database.  We will also cover authentication and how to connect to local and remote databases.   Finally, for a comparison, we will show a different (non-relational) database model through MongoDB, contrasting this to the relational paradigm.
 
 *Readings*:
-*	Lake, Peter.  _Concise Guide to Databases: A Practical Introduction_. Springer, 2013.
-*	Nield, Thomas. _Getting Started with SQL: A hands-on approach for beginners_. O’Reilly, 2016.
+*	Lake, Peter.  _Concise Guide to Databases: A Practical Introduction_. Springer, 2013.  Chapters 4-5, Relational Databases and NoSQL databases.
+*	Nield, Thomas. _Getting Started with SQL: A hands-on approach for beginners_. O’Reilly, 2016.  Entire text.
 
 *Further Resources*:
 * [SQLite documentation](https://www.sqlite.org/docs.html).
@@ -151,17 +146,17 @@ We will return to database normalization, and how to implement this using good p
 This week covers markup languages, content style sheets, and web protocols for publishing and transmitting data.  Continuing from the material covered in the first week lab session, we will cover markup languages, including HTML, XML, and Markdown, as well as common data formats such as JSON (Javascript Object Notation).  We will cover basic web scraping, to turn web data into text or numbers.  We will also cover the client-server model, and how machines and humans transmit data over networks and to and from databases.
 
 *Readings*:
-*   Severance, Charles Russell.  [_Introduction to Networking: How the Internet Works_](http://www.net-intro.com).  Charles Severance, 2015.
+* Shay Howe. 2015.  [_Learn to Code HTML and CSS: Develop and Style Websites_](http://learn.shayhowe.com/html-css/).  New Riders.  Chs 1-8.
+* [Beautiful Soup Documenation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 *Further Resources*:
 
-* Shay Howe. 2015.  [_Learn to Code HTML and CSS: Develop and Style Websites_](http://learn.shayhowe.com/html-css/).  New Riders.  
-*	Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
+* Duckett, Jon.  _HTML and CSS: Design and Build Websites_.  New York: Wiley, 2011.
+* Severance, Charles Russell.  [_Introduction to Networking: How the Internet Works_](http://www.net-intro.com).  Charles Severance, 2015.
+* Vik Paruchuri, "[Python Web Scraping Tutorial using BeautifulSoup](https://www.dataquest.io/blog/web-scraping-tutorial-python/)", 17 November 2016.
+* Justin Yek, "[How to scrape websites with Python and BeautifulSoup](https://medium.freecodecamp.org/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe)", 10 June 2017.
 
-
-*Lab*: **Advanced on-line publishing**
-* Mastering Markdown.
-* Adding functionality to our website, and creating an interface to web data.
+*Lab*: **Scraping data from the web**
 
 ---
 
@@ -170,12 +165,12 @@ This week covers markup languages, content style sheets, and web protocols for p
 Publicly accessible _application programming interfaces_ (APIs) provide a common source of "big" data available from a variety of sources, such as social media data.  This data consists of a variety of data types, but is usually transmitted in JSON format.  In this session, we will cover the basics of APIs, including authentication and the use of protocols for interacting with APIs, and in processing the data that is obtained using these methods.  We will also discuss common problems in using text, including character encodings, working with Unicode, transforming text into numeric data, and cleaning textual data for analysis.
 
 *Readings*:
-*   something on text, TBC
-*   Cooksey, Brian.  _An Introduction to APIs_.  Zapier, 2014.
-
+*   Cooksey, Brian.  [_An Introduction to APIs_](https://zapier.com/learn/apis/#download).  Zapier, 2014.
+*   [**python-twitter** documentation](https://python-twitter.readthedocs.io/en/latest/)
 
 *Further Resources*:
 * [Documentation on the Twitter REST API](https://dev.twitter.com/rest/public)
+* the [**twitteR** package for R](https://www.rdocumentation.org/packages/twitteR/versions/1.1.9)
 * Richard Ishida. 2015.  "[Character encodings for beginners](https://www.w3.org/International/questions/qa-what-is-encoding)".  W3C.
 
 *Lab*: **Working with social media data: Twitter**
