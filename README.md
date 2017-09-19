@@ -46,7 +46,7 @@ On the practical side, we will cover a variety of tools with which every data sc
 
 In the data visualisation part of the course, we will cover a variety of principles, tools, and methods for visualizing data.
 
-The final project will...
+For the final project, we will provide you with a dataset, which you will be expected to transform in order to produce visualizations.
 
 
 
