@@ -70,7 +70,7 @@ Where appropriate, we will use Jupyter notebooks for lab assignments, demonstrat
 
 ### Assessment
 
-Take home exam (50%) and in-class assessment (50%). Students will be expected to produce 10 problem sets in the MT.  Student problem sets will be marked each week, and will provide 50% of the mark.
+Project assignment (60%) and continuous assessment in weeks 3, 6, 8, 10 (10% each). Students will be expected to produce 10 problem sets in the MT. 
 
 ### Schedule
 
