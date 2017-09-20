@@ -26,11 +26,11 @@ No lectures or classes will take place during School Reading Week 6.
 | 4        | [Using data from the Internet](#week-4-using-data-from-the-internet)       |
 | 5        | [Working with APIs](#week-5-working-with-apis)                  |
 | 6        | _Reading Week_                       |
-| 7        | [Exploratory Data Analysis](#week-7-exploratory-data-analysis)          |
-| 8        | [Exploratory Data Analysis (Cont'd)](#week-8-exploratory-data-analysis-contd) |
-| 9        | [Model Evaluation](#week-9-model-evaluation)                   |
-| 10       | [Dimensionality Reduction](#week-10-dimensionality-reduction)           |
-| 11       | [Graph Data Visualization](#week11-graph-data-visualization)           |
+| 7        | [Exploratory data analysis](#week-7-exploratory-data-analysis)          |
+| 8        | [Exploratory data analysis (cont'd)](#week-8-exploratory-data-analysis-contd) |
+| 9        | [Model evaluation](#week-9-model-evaluation)                   |
+| 10       | [Dimensionality reduction](#week-10-dimensionality-reduction)           |
+| 11       | [Graph data visualization](#week11-graph-data-visualization)           |
 
 
 
@@ -185,7 +185,7 @@ Publicly accessible _application programming interfaces_ (APIs) provide a common
 
 
 ---
-#### Week 7. Exploratory Data Analysis
+#### Week 7. Exploratory data analysis
 
 We will introduce the basic statistical plots that are commonly used in exploratory data analysis. We will first consider standard plots for univariate data analysis, including histograms, empirical distribution functions, as well as plots of summary statistics such as boxplots. We will then consider different variants of bar plots, which are commonly used for comparison of parallel batches of data.
 
@@ -197,16 +197,15 @@ We will introduce the basic statistical plots that are commonly used in explorat
 * [Seaborn: statistical data visualization](https://seaborn.pydata.org)
 
 *Lab*: **Matplotlib primer and basic statistical plots**
-* Customizing plot style, axes labels, ticks, and scale
 * Plotting using Matplotlib, dataframe and datastream APIs
-* Histogram and cumulative histogram plots
-* Boxplots, notched boxplots and violin plots
+* Customizing style, axes labels, ticks, and scale
+*  Histogram, boxplots and their variants
 * Bar plots, horizontal, vertical and stacked
 
 ---
-#### Week 8. Exploratory Data Analysis (Cont'd)
+#### Week 8. Exploratory data analysis (cont'd)
 
-We will continue our consideration of data visualisations for exploratory data analysis by examining various other statistical plots, primarily focusing on those used for multivariate data analysis and time series data. We will consider the use of scatter plots and heatmaps.  
+We will continue our consideration of data visualizations for exploratory data analysis by examining various other statistical plots, primarily focusing to multivariate data analysis and time series data. We will consider the use of scatter plots and heatmaps.  
 
 *Readings*:
 * K. Dale, Data Visualization with Python & JavaScript, O'Reilly, 2016
@@ -214,15 +213,15 @@ We will continue our consideration of data visualisations for exploratory data a
 * S. Few, Show Me the Numbers: Designing Tables and Graphs to Enlighten, Second Edition, Analytics Press, 2012
 * L. Wilkinson and M. Friendly, [History Corner: The History of the Cluster Heat Map](https://www.cs.uic.edu/~wilkinson/Publications/heatmap.pdf), The American Statistician, Vol 63, No 2, May 2009
 
-*Lab*: **Statistical Plots using Matplotlib and Seaborn**
+*Lab*: **Statistical plots using Matplotlib and Seaborn**
 * Scatterplot and scatterplot matrix
 * Matrix reordering, clustering and bi-clustering
 * Time series plotting, autocorrelation plot
 
 ---
-#### Week 9. Model Evaluation
+#### Week 9. Model evaluation
 
-In this week, we will introduce standard statistical plots used for the performance evaluation of statistical models and machine learning algorithms for classification tasks. We will introduce standard statistical plots for assessing the performance of binary classifiers, such as receiver operating characteristic (ROC) and precision-recall (PR) curves. We will learn how to interpret these plots and discuss their advantages and limitations.  
+In this week, we will introduce standard statistical plots for the performance evaluation of statistical models and machine learning algorithms for classification. We will introduce standard statistical plots for assessing the performance of binary classifiers, such as receiver operating characteristic (ROC) and precision-recall (PR) curves. We will learn how to interpret these plots and discuss their advantages and limitations.  
 
 We will also discuss various standard metrics used for assessing the performance of binary classifiers, such as accuracy, area under the curve (AUC) and Gini coefficient, discuss their relation to the ROC curve, as well as their advantages and limitations.
 
@@ -235,15 +234,14 @@ We will also discuss various standard metrics used for assessing the performance
 
 
 *Lab*: **Evaluating classifiers using sklearn.metrics**
-* Comparing binary classifiers in ROC space
-* Comparing binary classifiers in PR space
+* Comparing binary classifiers in ROC and PR space
 * Comparison of ROC and PR curves
 * Accuracy, AUC and other metrics
 
 ---
-#### Week 10. Dimensionality Reduction
+#### Week 10. Dimensionality reduction
 
-We will consider how to visualize hidden structures in high-dimensional data, such as hidden clusters or low-dimension manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods.
+We will consider how to visualize hidden structures in a high-dimensional data, such as hidden clusters or low-dimensional manifolds, by using dimensionality reduction methods. We will explain the underlying principles of dimensionality reduction methods such as multidimensional scaling, locally linear embedding, isomap, spectral embedding, and stochastic neighbor embedding. We will see how geometry, linear algebra and optimisation methods give raise to different dimensionality reduction methods.
 
 Our focus will be on the dimensionality methods that are commonly used in practice and widely available through software libraries such as sklearn.manifold. We will also consider modern applications for visualizing different dimensionality reductions such as Google embedding projector.
 
@@ -255,15 +253,15 @@ Our focus will be on the dimensionality methods that are commonly used in practi
 * Google's [embedding projector](http://projector.tensorflow.org)
 * API reference, [scikit learn, Section 2.2: manifold learning](http://scikit-learn.org/stable/modules/manifold.html)
 
-*Lab*: **Dimensionality Reduction using sklearn.manifold**
-* Plotting dimensionality reductions using different methods
-* Understanding the meaning of input parameters
-* Understanding the sensitivity to the choice of input parameters
+*Lab*: **Dimensionality reduction using sklearn.manifold**
+* Dimensionality reduction plots using different methods
+* Understanding the meaning of various input parameters
+* Understanding the sensitivity to the input parameter values
 
 ---
-#### Week 11. Graph Data Visualization
+#### Week 11. Graph data visualization
 
-In the last week, we will consider the basic methods for visualisation of graph data such as visualising relationships in a social network. We will consider different choices of graph layouts and how they are computed. This will involve methods based on simple principles for drawing graphs that have a tree structure as well as more sophisticated methods based on spectral theory of linear algebra for general graphs.
+In the last week, we will consider the basic methods for visualization of graph data such as visualizing social network relationships. We will consider different graph layouts and the principles of how they are computed. This will involve methods based on simple principles for drawing graphs that have a tree structure as well as more sophisticated methods based on spectral theory of linear algebra and dynamical systems for general graphs.
 
 *Readings*:
 * A. Hagberg, D. Schult and P. Swart, [NetworkX Reference]( https://networkx.github.io/documentation/latest/_downloads/networkx_reference.pdf)
@@ -271,7 +269,7 @@ In the last week, we will consider the basic methods for visualisation of graph 
 * [Graphviz – Graph Visualisation Software](http://graphviz.org/), especially manual pages, layout commands
 
 
-*Lab*: **Graph Drawing using NetworkX**
+*Lab*: **Graph drawing using NetworkX**
 * Loading and manipulating graphs using NetworkX
 * Changing basic properties of graph visualization such as node or edge colors
 * Drawing graphs using different layouts
