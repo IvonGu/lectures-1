@@ -34,3 +34,10 @@
 
     Jim McGlone, "[Creating and Hosting a Personal Site on GitHub:
      A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.](http://jmcglone.com/guides/github-pages/)".
+     
+5.  Get familiar with GitHub Classroom.
+
+    *  Access the GitHub Classroom for assignment 1 through: [https://classroom.github.com/a/Zq4aVMm3](https://classroom.github.com/a/Zq4aVMm3) 
+    
+       Click on "accept this assignment" to set up the repository for this part of the assignment.
+    *  Read the README.md and follow the instruction on the information.md to update and commit the file.
