@@ -1,7 +1,6 @@
 ## ST445 Managing and Visualizing Data
 
 # Exercise 1: Working with Git and GitHub
-----
 
 1.  Get started with GitHub.
 
