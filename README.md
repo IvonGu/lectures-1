@@ -16,3 +16,5 @@ Then:
     file:///Users/kbenoit/Dropbox/GitHub/lse-st445/lectures/week01/ST445_wk1_admin.slides.html?pdf-preview#/
     ```
 * Print to Preview (Mac) or just print to pdf in Landscape A4 mode, without headers and footers
+
+See also https://github.com/lse-st445/lectures/issues/1
