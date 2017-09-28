@@ -19,25 +19,24 @@
         conda install r-essentials
         ```
 
-3.  Practice the class workflow.
+3.  Clone the lectures repository.
 
-    *   Clone the lectures repository.
+    You can "clone" repository, using the buttons found to the right side of your browser window as you view this repository.  This is the button labelled "Clone in Desktop".  You can also use command line git to do this, or use a GUI client for git.
 
-        You can "clone" repository, using the buttons found to the right side of your browser window as you view this repository.  This is the button labelled "Clone in Desktop".  You can also use command line git to do this, or use a GUI client for git.
+4.  Practice the class workflow.
 
-    *  Fork and correct the [broken R example](https://github.com/lse-st445/lectures/blob/master/week01/R_example.ipynb), and issue a Pull Request.
+    *  Access the GitHub Classroom for assignment 1 through:
+
+          [https://classroom.github.com/a/Zq4aVMm3](https://classroom.github.com/a/Zq4aVMm3)
+
+       Click on "accept this assignment" to set up the repository for this part of the assignment.  
+
+    *  Read the README.md and follow the instruction on the information.md to update and commit the file.  You will also be fixing a broken Jupyter notebook.
 
 
-4.  Create a personal web page.
+5.  Create a personal web page.
 
     Clone a website repository, modify it, and publish a personal webpage.  Follow the steps described in:
 
     Jim McGlone, "[Creating and Hosting a Personal Site on GitHub:
      A step-by-step beginner's guide to creating a personal website and blog using Jekyll and hosting it for free using GitHub Pages.](http://jmcglone.com/guides/github-pages/)".
-     
-5.  Get familiar with GitHub Classroom.
-
-    *  Access the GitHub Classroom for assignment 1 through: [https://classroom.github.com/a/Zq4aVMm3](https://classroom.github.com/a/Zq4aVMm3) 
-    
-       Click on "accept this assignment" to set up the repository for this part of the assignment.
-    *  Read the README.md and follow the instruction on the information.md to update and commit the file.
