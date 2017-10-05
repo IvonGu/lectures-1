@@ -7,3 +7,5 @@
 2. Reshaping data in R.
 
 3. Reshaping data in Python.
+
+Access assignment 2 via: https://classroom.github.com/a/xZSzK7Ne
