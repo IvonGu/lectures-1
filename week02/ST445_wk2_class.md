@@ -9,3 +9,5 @@
 3. Reshaping data in Python.
 
 Access assignment 2 via: https://classroom.github.com/a/xZSzK7Ne
+
+Deadline: Wednesday 11 October 11:00pm
