@@ -13,7 +13,7 @@ Then:
 * rename the output file to change the space before `slides` to an underscore
 * browse the file in Chrome using (e.g.)
     ```
-    file:///Users/kbenoit/Dropbox/GitHub/lse-st445/lectures/week01/ST445_wk1_admin.slides.html?pdf-preview#/
+    file:///Users/kbenoit/Dropbox/GitHub/lse-st445/lectures/week01/ST445_wk1_admin.slides.html?print-pdf#/
     ```
 * Print to Preview (Mac) or just print to pdf in Landscape A4 mode, without headers and footers
 
