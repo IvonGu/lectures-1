@@ -36,14 +36,3 @@ cmpdataWide <- spread(cmpdataLong, category, catcount)
 head(cmpdataWide)
 ```
 
-
-## Question 3
-
-### Example of how this can be done in Python, using RMarkdown
-
-```{python}
-x = 'hello, python world!'
-print(x.split(' '))
-```
-
-
