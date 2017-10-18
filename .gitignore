@@ -3,3 +3,5 @@
 answers-to-assignments/
 *.html
 *~
+.Rproj.user
+myStuffs
