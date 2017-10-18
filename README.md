@@ -46,12 +46,12 @@ Use the checkboxes to indicate which files should be part of the commit
     Reference:
     * https://stackoverflow.com/questions/10364429/how-to-commit-to-remote-git-repository
 
-3. update/upload directly on Github
-    * for .md file, you can edit the file directly
-    * for .ipynb file, if you try to edit it on Github, you will find out that the file is in JSON format, which makes it very difficult to be editted directly. You can use one of the following ways:
+3. other ways:
+
+    a. edit the file directly. This works for .md file but it does not work for .ipynb
     
-        1. edit it directly (**NOT recommended**, you may corrupt the file unless you know what you are doing)
-        2. upload your .ipynb (**NOT recommended**, not the best way to use Git!)
+    b. email your homework to Ken (NOT recommended, use this ONLY IF you cannot use method 1 or 2)
+   
         
 **It is always a good idea to check if your commits are truly reflected on Github!**
 
