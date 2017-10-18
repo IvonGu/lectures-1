@@ -50,7 +50,7 @@ Use the checkboxes to indicate which files should be part of the commit
 
     a. update files on Github.com:
         
-     * You can upload your updated files by clicking the "upload files" button (see here: https://help.github.com/articles/adding-a-file-to-a-repository/) (NOT recommended, you should be able to use the commit and push!)
+     * You can upload your updated files by clicking the "upload files" button (see here: https://help.github.com/articles/adding-a-file-to-a-repository/) to replace the outdated files (NOT recommended, you should be able to use the commit and push!)
      * if your files are in some simple format (like .md), you can edit the files directly
     
     b. email your homework to Ken (NOT recommended, use this ONLY IF you cannot use method 1 or 2)
