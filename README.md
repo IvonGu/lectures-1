@@ -23,6 +23,40 @@ See also https://github.com/lse-st445/lectures/issues/1
 
 ---
 
+## How to submit homework
+
+Handing in homework is basically committing changes you have made in your repository. There are 3 ways to do it:
+
+1. use github desktop: 
+    1. click the changes tab in the left sidebar to see a list of the files that have been changed or added since the last commit.
+Use the checkboxes to indicate which files should be part of the commit
+    2. type your commit message in the Summary field and click the commit button to commit your changes
+    3. click on sync on the top right corner of your github desktop app and it will sync to the online repository
+    
+    Reference:
+    
+     * https://stackoverflow.com/questions/27211578/how-to-commit-changes-to-github-with-github-desktop
+      * https://services.github.com/on-demand/github-desktop/add-commits-github-desktop
+
+2. use command line:
+    1. cd [your github repository location] 
+    2. git commit -m "your comment"
+    3. git push origin master
+    
+    Reference:
+    * https://stackoverflow.com/questions/10364429/how-to-commit-to-remote-git-repository
+
+3. update/upload directly on Github
+    * for .md file, you can edit the file directly
+    * for .ipynb file, if you try to edit it on Github, you will find out that the file is in JSON format, which makes it very difficult to be editted directly. You can use one of the following ways:
+    
+        1. edit it directly (**NOT recommended**, you may corrupt the file unless you know what you are doing)
+        2. upload your .ipynb (**NOT recommended**, not the best way to use Git!)
+        
+**It is always a good idea to check if your commits are truly reflected on Github!**
+
+---
+
 ## How to update the assignment starting codes / instructions
 
 1. Clone your own assignment repository into your own computer if you haven't:
