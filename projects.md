@@ -16,9 +16,9 @@ Analysis of different datasets may require different amount of effort, which wil
 ## A list of datasets
  
 * LSE library [data subscriptions](https://rl.talis.com/3/lse/lists/B54B4E2B-83C2-9876-BB1E-7E5EB35EB63A.html)
-* NHS Health [data](http://content.digital.nhs.uk/home)
-* [UK policing dataset](https://data.police.uk/data/)
-* [London datastore](https://data.london.gov.uk/)
+* NHS Health [datasets](http://content.digital.nhs.uk/home)
+* UK policing [datasets](https://data.police.uk/data/)
+* London [datastore](https://data.london.gov.uk/)
 * UK government data [data.gov.uk](https://data.gov.uk/)
 * [Urban Big Data Centre](http://ubdc.ac.uk/) data collection
 * [ESRC Business and Local Government Data Research Centre](http://www.blgdataresearch.org/) data collection
