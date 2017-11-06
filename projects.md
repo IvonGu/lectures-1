@@ -4,21 +4,21 @@ For your project, you need to create a Python notebook that contains an explorat
  
 You may choose one of the datasets from the list below, or from some other source. Your choice has to be approved by the course teachers.
  
-Your notebook needs to demonstrate knowledge of applying the methods learned in the course, *covering both manipulating and visualizing data*. It is expected that the notebook will tell a story and that the analysis will be nicely presented.
+Your notebook needs to demonstrate knowledge of applying the methods learned in the course, *covering both manipulating and visualizing data*. It will be expected from a notebook to tell a story and that the analysis is nicely presented.
  
-Analysis of different datasets may require different amount of effort to study them, which will be taken into account when grading submitted solutions. 
+Analysis of different datasets may require different amount of effort, which will be taken into account when grading submitted solutions. 
  
-## Important dates:
- 
+## Important dates
+
 * **Dataset choice approved**: 5pm, November 16, 2017
 * **Notebook submission date**: 5pm, January 5, 2018
  
-## Some datasets
+## A list of datasets
  
 * LSE library [data subscriptions](https://rl.talis.com/3/lse/lists/B54B4E2B-83C2-9876-BB1E-7E5EB35EB63A.html)
-* NHS Health [data](http://content.digital.nhs.uk/home)
-* [UK policing dataset](https://data.police.uk/data/)
-* [London datastore](https://data.london.gov.uk/)
+* NHS Health [datasets](http://content.digital.nhs.uk/home)
+* UK policing [datasets](https://data.police.uk/data/)
+* London [datastore](https://data.london.gov.uk/)
 * UK government data [data.gov.uk](https://data.gov.uk/)
 * [Urban Big Data Centre](http://ubdc.ac.uk/) data collection
 * [ESRC Business and Local Government Data Research Centre](http://www.blgdataresearch.org/) data collection
