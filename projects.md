@@ -4,9 +4,9 @@ For your project, you need to create a Python notebook that contains an explorat
  
 You may choose one of the datasets from the list below, or from some other source. Your choice has to be approved by the course teachers.
  
-Your notebook needs to demonstrate knowledge of applying the methods learned in the course, *covering both manipulating and visualizing data*. It is expected that the notebook will tell a story and that the analysis will be nicely presented.
+Your notebook needs to demonstrate knowledge of applying the methods learned in the course, *covering both manipulating and visualizing data*. It will be expected from a notebook to tell a story and that the analysis is nicely presented.
  
-Analysis of different datasets may require different amount of effort to study them, which will be taken into account when grading submitted solutions. 
+Analysis of different datasets may require different amount of effort, which will be taken into account when grading submitted solutions. 
  
 ## Important dates:
  
