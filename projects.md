@@ -37,9 +37,19 @@ Analysis of different datasets may require different amount of effort, which wil
 * Yahoo! [datasets](https://webscope.sandbox.yahoo.com/)
 * [Yago]( https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444) knowledge graph
 
+## Criteria of evaluation
+
+1. Data manipulation: use of different techniques for cleaning, reshaping and querying data studied in class.  
+2. Data visualization: use of most efficient data visualization methods for the underlying goals. 
+3. Presentation: overall organization of the notebook, story telling, general quality of presentation, use of both textual and graphical components, overall aesthetics and neatness, use of most efficient communication means, finding a good balance between using different methods and being concise and up to the point.
+
+Structure of a notebook: The notebook may start by summarizing what the goals of the study are and providing some background about the dataset and how this dataset can be used to address the asserted goals. It may then proceed through importing, cleaning and preparing the data for analysis, followed by an exploratory data analysis using data visualization and other means. The notebook may conclude with a section summarizing the main findings of the analysis. The notebook may use different methods for managing and visualizing data, but try to find a balance between being exhaustive and efficient in using those that best serve your underlying goals. The notebook may use different data analysis methods, from basic exploratory data analysis using statistical and other plots to those using special methods such as dimensionality reduction, graph visualization, predictions, and other methods.
+
 ## Example notebooks
 
 * [Kaggle Machine Learning Competition: Predicting Titanic Survivors](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/kaggle/titanic.ipynb)
 * [Customer Churn](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/analyses/churn.ipynb)
 * pycon 2017 EDA [tutorial](https://github.com/cmawer/pycon-2017-eda-tutorial)
 * EDA with python [here](https://www.kaggle.com/shauryashubham/exploratory-data-analysis-with-python) and [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python)
+
+
