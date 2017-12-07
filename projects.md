@@ -36,3 +36,10 @@ Analysis of different datasets may require different amount of effort, which wil
 * Google [Knowledge Graph](https://developers.google.com/knowledge-graph/)
 * Yahoo! [datasets](https://webscope.sandbox.yahoo.com/)
 * [Yago]( https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/#c10444) knowledge graph
+
+## Example notebooks
+
+* [Kaggle Machine Learning Competition: Predicting Titanic Survivors](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/kaggle/titanic.ipynb)
+* [Customer Churn](http://nbviewer.jupyter.org/github/donnemartin/data-science-ipython-notebooks/blob/master/analyses/churn.ipynb)
+* pycon 2017 EDA [tutorial](https://github.com/cmawer/pycon-2017-eda-tutorial)
+* EDA with python [here](https://www.kaggle.com/shauryashubham/exploratory-data-analysis-with-python) and [here](https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python)
