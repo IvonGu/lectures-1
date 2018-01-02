@@ -11,7 +11,7 @@ Analysis of different datasets may require different amount of effort, which wil
 ## Important dates
 
 * **Dataset choice approved**: 5pm, November 16, 2017
-* **Notebook submission date**: 5pm, January 5, 2018
+* **Notebook submission date**: ~~5pm, January 5, 2018~~ **(new final deadline: 5pm, January 15, 2018)**
  
 ## A list of datasets
  
